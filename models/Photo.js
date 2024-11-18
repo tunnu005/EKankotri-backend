@@ -12,3 +12,4 @@ const PhotoSchema = new mongoose.Schema({
 });
 
 export const Photos = mongoose.model('Photo', PhotoSchema);
+

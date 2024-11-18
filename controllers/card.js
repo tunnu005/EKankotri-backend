@@ -60,7 +60,7 @@ export const Saveusedata = async(req,res)=>{
     )
     console.log(newCard)
     const savaeddata = await newCard.save()
-    return res.status(200).json({link : `http://localhost:5173/${savaeddata._id}`});
+    return res.status(200).json({link : `https://ekankotri.vercel.app/${savaeddata._id}`});
    } catch (error) {
     console.log("error",error)
    }
